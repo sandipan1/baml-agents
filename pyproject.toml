@@ -1,0 +1,11 @@
+[project]
+name = "baml-agents"
+version = "0.1.0"
+description = "Example BAML agents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "baml-py>=0.210.0",
+    "openai>=2.6.1",
+    "pydantic>=2.11.10",
+]
